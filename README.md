@@ -46,12 +46,6 @@ Run the server
 
 node server.js
 
-The app will run on http://localhost:3000 by default.
-
-Access the frontend
-Open http://localhost:3000 in your browser.
-
-
 If you want, I can also **make a super-short, GitHub-ready version** that’s **under 100 lines** and looks neat with badges like “Node.js” and “License MIT,” which is great for showing recruiters or portfolio.  
 
 Do you want me to do that?

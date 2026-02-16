@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TinyLink Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 font-sans">
+    <h1 class="text-2xl font-bold mb-4">TinyLink Dashboard</h1>
+
+    <div class="mb-4">
+        <input id="url-input" type="text" placeholder="Enter URL" class="border p-2 w-80">
+        <button id="shorten-btn" class="bg-blue-500 text-white p-2 ml-2">Shorten</button>
+    </div>
+
+    <table id="dashboard-table" class="w-full border-collapse border border-gray-300">
+        <thead>
+            <tr class="bg-gray-200">
+                <th class="border px-2 py-1">Code</th>
+                <th class="border px-2 py-1">URL</th>
+                <th class="border px-2 py-1">Clicks</th>
+                <th class="border px-2 py-1">Last Clicked</th>
+                <th class="border px-2 py-1">Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+<script src="script.js"></script>
+</body>
+</html>
